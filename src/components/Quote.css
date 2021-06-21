@@ -1,0 +1,18 @@
+.quote-container{
+    width: 100%;
+  
+}
+
+
+.quote-author::before{
+    content: "- ";
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 20px;
+
+} 
+
